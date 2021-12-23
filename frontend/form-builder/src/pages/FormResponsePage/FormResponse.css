@@ -1,0 +1,43 @@
+.form-container {
+	padding: 1.25rem;
+	height: inherit;
+	width: inherit;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.response-form-title {
+	font-family: Mulish;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.form-footer {
+	margin: 1.25rem;
+	display: flex;
+	gap: 1rem;
+}
+
+.btn {
+	cursor: pointer;
+	height: 1.875rem;
+	width: fit-content;
+	border: 0.0625rem solid grey;
+	border-radius: 0.625rem;
+	background-color: #f7f7f7;
+	padding: 0px 0.625rem;
+}
+
+.form-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 50rem;
+}
+
+.error {
+	margin: 1.25rem;
+	color: #f32013;
+	font-weight: bolder;
+}

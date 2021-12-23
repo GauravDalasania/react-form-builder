@@ -1,0 +1,41 @@
+.form-listing-container {
+	width: inherit;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+}
+
+.no-form-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#create-form-btn {
+	cursor: pointer;
+	height: 30px;
+	width: fit-content;
+	border: 1px solid grey;
+	border-radius: 0.625rem;
+	background-color: #f7f7f7;
+	padding: 0px 10px;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	margin: 5rem 20rem;
+}
+
+td,
+th {
+	border: 0.5px solid lightgray;
+	text-align: left;
+	padding: 8px;
+}
